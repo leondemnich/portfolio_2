@@ -1,0 +1,254 @@
+body {
+    font-family: 'Akshar', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    color: #070707;
+    ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+}
+
+p {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.container {
+    width: 944px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    padding-bottom: 104px;
+}
+
+.menu {
+    border-bottom: 1px solid #828282;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item_active a {
+    color: #070707;
+}
+
+.menu__item {
+    padding: 33px 0 32px;
+}
+
+.menu__item a:hover {
+    color: #070707;
+    transition: color 0.5s ease;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40px 0 50px;
+}
+
+.wrapper__title {
+    font-size: 47px;
+    line-height: 58px;
+    max-width: 124px;
+}
+
+.wrapper__text {
+    max-width: 156px;
+}
+
+.wrapper__img {
+    margin-bottom: 7px;
+}
+
+.wrapper__photo {
+    background: url(../img/BSPP2266.png) no-repeat center;
+    width: 942px;
+    height: 387px;
+}
+
+.content {
+    padding: 120px 0 107px;
+    background: #F6F6F6 auto 100%;
+}
+
+.content__subject {
+    text-align: center;
+}
+
+.content__title {
+    font-size: 34px;
+    line-height: 2.55;
+    margin-bottom: 33px;
+}
+
+.content__text {
+    width: 485px;
+    margin: 0 auto 52px;
+}
+
+.content__text:last-child {
+    margin-bottom: 0;
+}
+
+/* Skills */
+
+.Skills {
+    padding: 91px 0 110px;
+}
+
+.skills__title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.skills__text {
+    margin: 69px 0 83px;
+    text-align: center;
+}
+
+.skills__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    padding: 0 15px;
+}
+
+.skills__subtitle {
+    width: 91px;
+    text-align: center;
+    margin-top: 24px;
+    display: block;
+    color: #070707;
+}
+
+/* Portfolio */
+
+.Portfolio {
+    background: #F6F6F6;
+    padding: 113px 0 96px;
+    text-align: center;
+}
+
+.Portfolio__title {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 53px;
+}
+
+.Portfolio__woman {
+    background: url(../img/woman\ 8.png) no-repeat;
+    width: 936px;
+    height: 522px;
+}
+
+.Portfolio__link {
+    text-decoration-line: underline;
+    color: #070707;
+    margin: 45px 0 99px;
+    display: block;
+}
+
+.Portfolio__link:last-child {
+    margin: 45px 0 0;
+}
+
+.Portfolio__reebok {
+    background: url(../img/reebok_web.png);
+    width: 936px;
+    height: 522px;
+}
+
+.Portfolio__shop {
+    background: url(../img/reebok_web\ \(1\).png);
+    width: 936px;
+    height: 522px;
+}
+
+.footer {
+    padding: 114px 0 123px;
+}
+
+.Contacts {
+    width: 345px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Contacts__title {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 26px;
+}
+
+.Contacts__text {
+    width: 263px;
+    margin: 0 auto 29px;
+}
+
+.Contacts__btn {
+    color: #FFFFFF;
+    padding: 13px 0;
+    width: 180px;
+    background: #070707;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.Contacts__btn:hover {
+    color: #070707;
+    background: #ffffff;
+    border: 1.5px solid #070707;
+    border-radius: 30px;
+    box-shadow: 1.5px 1.5px 10px 1.5px #070707;
+}
+
+.Contacts__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 0 46px;
+}
+
+.Contacts__item {
+
+}
+
+.Contacts__span {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
